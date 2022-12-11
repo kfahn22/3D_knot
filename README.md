@@ -51,7 +51,7 @@ Here are the parameters for the lacy knot "ornament".
 
 ## My husband the chemist says this is NOT a snowflake
 
-Reasoning: not hexagonal and not planar and columnar under certain conditons of humidity and temperature.
+Reasoning: not hexagonal and planar, or columnar (under certain conditons of humidity and temperature).
 
 Here are the parameters for the NOT snowflake knot: 
 
