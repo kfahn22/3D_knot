@@ -30,7 +30,7 @@ void draw() {
   rotateY(angle);
   angle += 0.03;
   
-   if (i < 430) {
+  if (i < 430) {
   float r = 90*(j + sc * sin(k * beta));
   float theta = t * beta;
   float phi = l * PI * sin(m * beta);
@@ -44,7 +44,7 @@ void draw() {
 
 
   noFill();
-  stroke(255);
+  //stroke(255);
   strokeWeight(3);
   push();
   scale(0.6);
