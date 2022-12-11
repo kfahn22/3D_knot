@@ -30,7 +30,7 @@ The only thing I changed to get the first version is the incrementation.
 
 `float f = 0.05;`
 
-<img class="img" src="images/lacy_3d_knot.jpg" alt="Lacy 3D Knot" style=" display: block;
+<img class="img" src="images/lacy_3dknot.jpg" alt="Lacy 3D Knot" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
@@ -69,16 +69,13 @@ This is really two knots rendered at the same time, with one rotated by PI/2.
 
 ## Pineapple knot
 
-
-
 Here are the parameters for a version I am calling the pineapple knot.
-
 
 `float j = 0.8;`  
 `int k = 12;`  
 `float sc = 1.4;`  
 `float f = 0.05;`  
 
-<img class="img" src="images/snow_2.jpg" alt="Snowflake shape" style=" display: block;
+<img class="img" src="images/pineapple.jpg" alt="Snowflake shape" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
