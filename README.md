@@ -55,13 +55,13 @@ Reasoning: not hexagonal and planar, or columnar (under certain conditons of hum
 
 Here are the parameters for the NOT a snowflake knot: 
 
-`float j = 1.2;`  
-`int k = 36;`  
-`float l = 0.4;`
-`int m = 6;`
-`int t = 2;`
-`float sc = 1.0;`
-`float f = 0.05;`
+`float j = 1.2;`   
+`int k = 36;`    
+`float l = 0.4;`  
+`int m = 6;`  
+`int t = 2;`  
+`float sc = 1.0;`  
+`float f = 0.05;`  
 
 This is really two knots rendered at the same time, with one rotated by PI/2.
 
@@ -70,6 +70,7 @@ This is really two knots rendered at the same time, with one rotated by PI/2.
     margin-right: auto;" width="800" height="450">
 
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/ZVNioy7LJ)
+[Code]()
 
 ## Pineapple knot
 
