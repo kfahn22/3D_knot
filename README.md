@@ -24,15 +24,13 @@ All I have done is replaced the constants with variables so I could play around 
 `vectors.add(new PVector(x,y,z));`  
 `beta += f;`
 
-
-
 ## Lacy version of 3d Knot
 
 The only thing I changed to get the first version is the incrementation.
 
 `float f = 0.05;`
 
-<img class="img" src="assets/lacy_3d_knot.jpg" alt="Lacy 3D Knot" style=" display: block;
+<img class="img" src="images/lacy_3d_knot.jpg" alt="Lacy 3D Knot" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
@@ -47,7 +45,7 @@ Here are the parameters for the lacy knot "ornament".
 `float sc = 1.22;`
 `float f = 0.05;`
 
-<img class="img" src="assets/thing2.jpg" alt="Lacy Knot shape" style=" display: block;
+<img class="img" src="images/thing2.jpg" alt="Lacy Knot shape" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
@@ -65,7 +63,7 @@ Here are the parameters for the snowflake knot:
 
 This is really two knots rendered at the same time, with one rotated by PI/2.
 
-<img class="img" src="assets/snow_2.jpg" alt="Snowflake shape" style=" display: block;
+<img class="img" src="images/snow_2.jpg" alt="Snowflake shape" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
@@ -81,6 +79,6 @@ Here are the parameters for a version I am calling the pineapple knot.
 `float sc = 1.4;`  
 `float f = 0.05;`  
 
-<img class="img" src="assets/snow_2.jpg" alt="Snowflake shape" style=" display: block;
+<img class="img" src="images/snow_2.jpg" alt="Snowflake shape" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
