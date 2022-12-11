@@ -67,6 +67,8 @@ This is really two knots rendered at the same time, with one rotated by PI/2.
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
+[P5 sketch](https://editor.p5js.org/kfahn/sketches/ZVNioy7LJ)
+
 ## Pineapple knot
 
 Here are the parameters for a version I am calling the pineapple knot.
