@@ -49,6 +49,8 @@ Here are the parameters for the lacy knot "ornament".
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
+[Code](https://github.com/kfahn22/3D_knot/tree/main/new_knot_thingy)
+
 ## My husband the chemist says this is NOT a snowflake
 
 Reasoning: not hexagonal and planar, or columnar (under certain conditons of humidity and temperature).
@@ -70,7 +72,7 @@ This is really two knots rendered at the same time, with one rotated by PI/2.
     margin-right: auto;" width="800" height="450">
 
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/ZVNioy7LJ)
-[Code]()
+[Code](https://github.com/kfahn22/3D_knot/tree/main/not_a_snowflake)
 
 ## Pineapple knot
 
@@ -84,3 +86,5 @@ Here are the parameters for a version I am calling the pineapple knot.
 <img class="img" src="images/pineapple.jpg" alt="Snowflake shape" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
+
+[Code](https://github.com/kfahn22/3D_knot/tree/main/pineapple)
