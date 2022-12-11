@@ -2,7 +2,7 @@
 
 I started with [Daniel Shiffman's](https://thecodingtrain.com/challenges/87-3d-knots) 3D Coding challenge code and tweaked the parameters a little to come up with the following knots.
 
-This is key part of Daniel's code:
+This is the key part of Daniel's code:
 
 `float r = 100*(0.8 + 1.6 * sin(6 * beta));`  
 `float theta = 2 * beta;`  
