@@ -71,7 +71,7 @@ This is really two knots rendered at the same time, with one rotated by PI/2.
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
-[P5 sketch](https://editor.p5js.org/kfahn/sketches/ZVNioy7LJ)
+[P5 sketch](https://editor.p5js.org/kfahn/sketches/ZVNioy7LJ)  
 [Code](https://github.com/kfahn22/3D_knot/tree/main/not_a_snowflake)
 
 ## Pineapple knot
