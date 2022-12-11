@@ -53,7 +53,7 @@ Here are the parameters for the lacy knot "ornament".
 
 Reasoning: not hexagonal and not planar and columnar under certain conditons of humidity and temperature.
 
-Here are the parameters for the snowflake knot: 
+Here are the parameters for the NOT snowflake knot: 
 
 `float j = 1.2;`  
 `int k = 36;`  
