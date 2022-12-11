@@ -49,7 +49,9 @@ Here are the parameters for the lacy knot "ornament".
     margin-left: auto;
     margin-right: auto;" width="800" height="450">
 
-## "Snowflake" knot
+## My husband the chemist says this is NOT a snowflake
+
+Reasoning: not hexagonal and not planar and columnar under certain conditons of humidity and temperature.
 
 Here are the parameters for the snowflake knot: 
 
