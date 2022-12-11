@@ -1,8 +1,9 @@
-// Based code from 3D Knot Coding Challenge
-// Coding Train / Daniel Shiffman
+// 3D Knot
+// Coding Train / Daniel Shiffman / Kathy
 // https://thecodingtrain.com/challenges/87-3d-knots
 // https://youtu.be/r6YMKr1X0VA
-// https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing
+
+// Code from challenge https://github.com/CodingTrain/Coding-Challenges/tree/main/087_3D_Knots/Processing
 
 float angle = 0;
 float beta;
@@ -10,8 +11,7 @@ float sc = 1.22;
 float c;
 ArrayList<PVector> vectors = new ArrayList<PVector>();
 
-float l = 90.0;
-float f = 0.01;
+float f = 0.05; // 0.01
 int i = 0;
 //float beta = 0;
 
@@ -26,7 +26,7 @@ void draw() {
   
   rotateY(angle);
   angle += 0.03;
-  if (i < 450) {
+  if (i < 430) {
   float r = 100*(0.8 + sc * sin(6 * beta));
   float theta = 2 * beta;
   float phi = 0.6 * PI * sin(12 * beta);
@@ -35,7 +35,7 @@ void draw() {
   float z = r * sin(phi);
   vectors.add(new PVector(x,y,z));
 
-  beta += f + TWO_PI/l;
+   beta += f;
   }
   
   noFill();
@@ -53,7 +53,7 @@ void draw() {
       vertex(v.x, v.y, v.z);
     }
     else {
-      strokeWeight(3);
+      strokeWeight(4);
       stroke(72,39,40);
       // stroke(144,227,154);
       vertex(v.x, v.y, v.z);
