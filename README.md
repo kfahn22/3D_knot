@@ -24,6 +24,8 @@ All I have done is replaced the constants with variables so I could play around 
 `vectors.add(new PVector(x,y,z));`  
 `beta += f;`
 
+[Live Version](https://kfahn22.github.io/3D_knot/)
+
 ## Lacy version of 3d Knot
 
 The only thing I changed to get the first version is the incrementation.
