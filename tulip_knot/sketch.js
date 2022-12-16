@@ -10,21 +10,19 @@
 // https://home.adelphi.edu/~stemkoski/knotgallery/
 
 let angle = 0;
-let petals = [];
+let x, y;
+let tulips = [];
 let colorOptions1 = ['#9ad5ca', '#acdde7', '#3adb9e3', '#a379c9'];
 
 function setup() {
     createCanvas(600, 600, WEBGL);
     angleMode(DEGREES);
 
-    for (i = 0; i < 1; i++) {
-        // oy = 0.01 * random(i);
-        // // x = width * oy;
-        // // y = height * oy;
-        // x = width * 0.1;
-        // y = height * 0.1;
+    for (i = 0; i < 2; i++) {
+        x = 100*i;
+        y = 100*i;
         let c = colorOptions1[i % 4];
-        petals.push(new Petal(c));
+        tulips.push(new Tulip(x, y, c));
     }
 }
 
@@ -38,9 +36,10 @@ function draw() {
     noFill();
     strokeWeight(1);
     push();
-    for (i = 0; i < petals.length; i++) {
-        petals[i].oneKnot();
-        petals[i].show(angle, 18);  
+    for (i = 0; i < tulips.length; i++) {
+        translate(i*100, 0);
+        tulips[i].oneKnot();
+        tulips[i].show(angle, 18);  
     }
     pop();
    angle += 0.03;

@@ -1,7 +1,9 @@
 let x, y, z;
 
-class Petal {
-    constructor(_c) {
+class Tulip {
+    constructor(_px, _py, _c) {
+        this.px = _px;
+        this.py = _py;
         this.col = _c;
         this.j = 0; // determines symmetry
         this.k = 8; 
@@ -10,8 +12,8 @@ class Petal {
         this.p = 9; //9
         this.q = 8; //8
         this.s1 = 5;
-        this.h2 = 4;
-        this.sc = 5; // determines scale
+        this.h2 = 1;
+        this.sc = 2; // determines scale
         this.pi = 180; // angle mode is degrees
         this.points = [];
     }
@@ -36,8 +38,11 @@ class Petal {
     }
 
     show(angle, num) {
+        push();
+        translate(this.px, this.py);
+        fill(0, 255, 0);
+        cylinder(2, 100);
         rotateY(angle);
-       // let num = 18;
         for (let k = 1; k < num; k += 1) {
             push();
             let m = map(k, 1, num, 360, 20);
@@ -51,5 +56,6 @@ class Petal {
             endShape();
             pop();
         }
+        pop();
     }
 }

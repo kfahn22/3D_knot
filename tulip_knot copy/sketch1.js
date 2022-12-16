@@ -14,6 +14,7 @@
 let a = 0;
 //let beta = 0;
 let tulips = [];
+let tulip;
 let nf = 1; // number of flowers
 
 function setup() {
@@ -22,9 +23,10 @@ function setup() {
     let x = 300;
     let y = 300;
     let c = color(201 ,112, 100, 50);
-    for (let i = 0; i < 1; i++) {
-        tulips[i].push(new Tulip(x, y, c, a));
-    }
+    // for (let i = 0; i < 1; i++) {
+    //     tulips[i].push(new Tulip(x, y, c, a));
+    // }
+    tulip = new Tulip(x,y,c,a);
 
 }
 
@@ -37,11 +39,13 @@ function draw() {
 
     noFill();
     strokeWeight(1);
-    push();
-    for (i = 0; i < tulips.length; i++) {
-        tulips[i].addPetals();  
-        tulips[i].show();  
-    }
-    pop();
+    // push();
+    // for (i = 0; i < tulips.length; i++) {
+    //     tulips[i].addPetals();  
+    //     tulips[i].show();  
+    // }
+    // pop();
+    tulip.addPetals();
+    tulip.show();
   // angle += 0.03;
 }

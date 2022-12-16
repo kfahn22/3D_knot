@@ -17,14 +17,17 @@ function setup() {
     createCanvas(600, 600, WEBGL);
     angleMode(DEGREES);
 
-    for (i = 0; i < 1; i++) {
+    for (i = 0; i < 16; i++) {
         // oy = 0.01 * random(i);
         // // x = width * oy;
         // // y = height * oy;
         // x = width * 0.1;
         // y = height * 0.1;
+        let r = random(-5, 5);
+        let x = r*i;
+        let y = r*i;
         let c = colorOptions1[i % 4];
-        petals.push(new Petal(c));
+        petals.push(new Petal(x, y, c));
     }
 }
 
@@ -39,8 +42,10 @@ function draw() {
     strokeWeight(1);
     push();
     for (i = 0; i < petals.length; i++) {
+        
         petals[i].oneKnot();
         petals[i].show(angle, 18);  
+       
     }
     pop();
    angle += 0.03;

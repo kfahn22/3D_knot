@@ -1,11 +1,11 @@
 class Tulip {
     constructor(_x, _y, _c, _a) {
-        this.petal = new Petal(_c);
         this.x = _x;
         this.y = _y;
         this.c = _c;
         this.num = 18;
         this.a = _a;
+        this.petal = new Petal(_c);
         //this.petals = [];
     }
     // addPetals() {
@@ -21,6 +21,7 @@ class Tulip {
         noFill();
         strokeWeight(1);
         push();
+        for (i = 0; i < petals.length; i++) {
         this.petal.oneKnot();
         this.petal.show(this.a, this.num);
         // for (i = 0; i < this.petals.length; i++) {
@@ -29,5 +30,6 @@ class Tulip {
         // }
         pop();
         this.a += 0.03;
+        }
     }
 }

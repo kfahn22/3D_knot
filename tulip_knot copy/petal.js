@@ -1,7 +1,9 @@
 let x, y, z;
 
 class Petal {
-    constructor(_c) {
+    constructor(_px, _py, _c) {
+        this.px = _px;
+        this.py = _py;
         this.col = _c;
         this.j = 0; // determines symmetry
         this.k = 8; 
@@ -10,8 +12,8 @@ class Petal {
         this.p = 9; //9
         this.q = 8; //8
         this.s1 = 5;
-        this.h2 = 4;
-        this.sc = 5; // determines scale
+        this.h2 = 2;
+        this.sc = 2; // determines scale
         this.pi = 180; // angle mode is degrees
         this.points = [];
     }
@@ -40,6 +42,7 @@ class Petal {
        // let num = 18;
         for (let k = 1; k < num; k += 1) {
             push();
+            translate(this.px, this.py);
             let m = map(k, 1, num, 360, 20);
             rotateY(m);
             beginShape();
